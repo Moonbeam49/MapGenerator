@@ -2,7 +2,7 @@
 **![](https://lh6.googleusercontent.com/BhgQ_J8aP-P5GJkCkrLL1NryDLY9d4pWswZxJDW-Ic0fUXG3_H6pmtjiVBfRbchYusGmTHwF8Pp3JEpKHGqxmvJp0U_cbyRNTt-8WHrnWsAj4tu-lOy3Dw41YEX7O4RSYXzTF8wTvSsrql27jQMmh8L1pJ7qo002dDUHIo7mFVnGLwuwBdUItzh_oA)**
 C# tool developed with Unity, used to generate heightmaps as float arrays with values ranging from 0 to 1. The output array is stored on the drive and can be further used for any purpose. Current maps can be generated using either one of the following algorithms: Noise - a simple perlin noise heightmap, and Shaped - custom algorithm that generates and places a given amount of individual islands.
 
-Tool is built and tested for Windows and Linux.
+Tool is built and tested for Windows only.
 # Table of contents
 - [Installation Guide](#installation-guide)
 - [Controls](#controls)
@@ -13,9 +13,9 @@ Tool is built and tested for Windows and Linux.
 - [Development time](#development-time)
 
 # Installation Guide  
-Download the required version for Windows (link) or Linux (link) from here and unpack the archive on your hard drive, then run the unpacked executable (MapGenerator.exe or MapGenerator.x86_64) to start the application.
+Download the [version for Windows](https://github.com/Moonbeam49/MapGenerator/blob/main/Builds/MapGeneratorWin.zip) from here and unpack the archive on your hard drive, then run the unpacked executable (MapGenerator.exe or MapGenerator.x86_64) to start the application.
 
-Windows version might require the latest version of directX (link) and vcredist (link).
+Windows version might require the latest version of [directX](https://www.microsoft.com/en-us/Download/confirmation.aspx?id=35) and [vcredist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
 [Back to top](#table-of-contents)
 # Controls
@@ -122,7 +122,7 @@ If requested by the application settings, the resulting heightmap will be conver
 
 [Back to top](#table-of-contents)
 # Code location and output files
-Source code is located at source\Assets\Scripts
+Source code is located at [source\Assets\Scripts](https://github.com/Moonbeam49/MapGenerator/tree/main/Assets/Scripts)
 
 [Back to top](#table-of-contents)
 # Development time
